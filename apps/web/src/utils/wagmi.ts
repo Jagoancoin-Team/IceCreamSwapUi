@@ -7,7 +7,6 @@ import { configureChains, createConfig, createStorage } from 'wagmi'
 import { mainnet } from 'wagmi/chains'
 import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
 import { InjectedConnector } from 'wagmi/connectors/injected'
-import { LedgerConnector } from 'wagmi/connectors/ledger'
 import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
 import { jsonRpcProvider } from 'wagmi/providers/jsonRpc'
@@ -53,8 +52,8 @@ export const injectedConnector = new InjectedConnector({
 export const coinbaseConnector = new CoinbaseWalletConnector({
   chains,
   options: {
-    appName: 'IceCreamSwap',
-    appLogoUrl: 'https://icecreamswap.com/favicon.ico',
+    appName: 'DynastySwap',
+    appLogoUrl: 'https://dynastycoin.io/assets/img/logo/logo.png',
   },
 })
 
@@ -86,13 +85,6 @@ const bloctoConnector = new BloctoConnector({
   options: {
     defaultChainId: 56,
     appId: 'e2f2f0cd-3ceb-4dec-b293-bb555f2ed5af',
-  },
-})
-
-const ledgerConnector = new LedgerConnector({
-  chains,
-  options: {
-    projectId: 'c33f5b4a87af478e80a3b8b807e52895',
   },
 })
 
@@ -186,7 +178,6 @@ export const wagmiConfig = createConfig({
     okxConnector,
     // @ts-ignore FIXME: wagmi
     bloctoConnector,
-    ledgerConnector,
     trustWalletConnector,
   ],
 })

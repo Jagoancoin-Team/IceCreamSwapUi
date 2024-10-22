@@ -1054,7 +1054,7 @@
   "The Locked Price & Closed Price are exactly the same (within 8 decimals), so neither side wins. All funds entered into UP and DOWN positions will go to the weekly CAKE burn.": "Det låsta priset och slutpriset är exakt likadant (inom 8 decimaler), vilket betyder att ingen av sidorna vann. Alla medel som angetts i UPP- och NED-positioner skickas till veckans CAKE-tokenbränning.",
   "To Burn": "Att bränna",
   "Account": "Konto",
-  "IceCreamSwap Info & Analytics": "IceCreamSwaps information och analys",
+  "DynastySwap Info & Analytics": "IceCreamSwaps information och analys",
   "Top Tokens": "Våra populäraste tokens",
   "Top Pairs": "Toppar",
   "Your Watchlist": "Din bevakningslista",

@@ -88,12 +88,12 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
         <meta name="theme-color" content="#F8567F" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://icecreamswap.com/images/hero.png" />
-        <meta name="twitter:title" content="🍦 IceCreamSwap - Multi-chain DeFi ecosystem" />
+        <meta name="twitter:title" content="🍦 DynastySwap - Multi-chain DeFi ecosystem" />
         <meta
           name="twitter:description"
           content="DEX, DEX Aggregator, RPC, Block Explorer, KYC, Launchpad and Bridge on Base, Core DAO, Telos, Bitgert, XDC, Shardeum, Shimmer, BSC, Xodex, Dogechain and Fuse."
         />
-        <title>IceCreamSwap</title>
+        <title>DynastySwap</title>
       </Head>
       <DefaultSeo {...SEO} />
 
@@ -168,7 +168,7 @@ const App = ({ Component, pageProps }: AppPropsWithLayout) => {
     }
   }, [chainId, supportedChains])
   */
-  const wrongChain = typeof chainId !== 'undefined' && supportedChains.length != 0 && !supportedChains.includes(chainId)
+  const wrongChain = typeof chainId !== 'undefined' && supportedChains.length !== 0 && !supportedChains.includes(chainId)
   if (Component.pure) {
     return <Component {...pageProps} />
   }

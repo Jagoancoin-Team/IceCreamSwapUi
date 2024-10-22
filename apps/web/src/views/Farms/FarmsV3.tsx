@@ -596,7 +596,7 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
           </Flex>
         )}
         {chosenFarms.length > 0 && <div ref={observerRef} />}
-        <StyledImage src="/images/icecream.png" alt="IceCream illustration" width={120} height={120} />
+        <StyledImage src="/images/dynasty.png" alt="IceCream illustration" width={120} height={120} />
         <V3SubgraphHealthIndicator />
       </Page>
     </FarmsV3Context.Provider>

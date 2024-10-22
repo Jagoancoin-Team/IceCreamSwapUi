@@ -1054,7 +1054,7 @@
   "The Locked Price & Closed Price are exactly the same (within 8 decimals), so neither side wins. All funds entered into UP and DOWN positions will go to the weekly CAKE burn.": "Giá khóa & Giá chốt là như nhau (trong 8 số thập phân), vậy nên không có bên nào chiến thắng. Mọi khoản tiền được nhập vào các vị thế LÊN và XUỐNG đều được đưa đi đốt CAKE hằng tuần.",
   "To Burn": "Để đốt",
   "Account": "Tài khoản",
-  "IceCreamSwap Info & Analytics": "Thông tin & Phân tích IceCreamSwap",
+  "DynastySwap Info & Analytics": "Thông tin & Phân tích IceCreamSwap",
   "Top Tokens": "Các Token hàng đầu",
   "Top Pairs": "Các cặp hàng đầu",
   "Your Watchlist": "Danh sách theo dõi của bạn",

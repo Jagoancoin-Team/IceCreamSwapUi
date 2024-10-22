@@ -7,23 +7,16 @@ import {
   DropdownMenuItems,
   BridgeIcon,
   DropdownMenuItemType,
-  RocketIcon,
   InfoIcon,
   MoreHorizontalIcon
 } from '@pancakeswap/uikit'
 import { ContextApi } from '@pancakeswap/localization'
 import {
-  SUPPORT_BUY_CRYPTO,
   SUPPORT_FARMS,
   SUPPORT_STAKING,
   SUPPORT_INFO,
   SUPPORT_SWAP,
-  SUPPORT_BRIDGE,
-  SUPPORT_LOCKS,
-  SUPPORT_LAUNCHPAD,
-  SUPPORT_TOKEN_DEPLOYER,
-  SUPPORT_KYC,
-  SUPPORT_KYC_DELEGATION
+  SUPPORT_BRIDGE
 } from "config/constants/supportChains";
 
 export type ConfigMenuDropDownItemsType = DropdownMenuItems & {
@@ -107,15 +100,6 @@ const config: (
       showItemsOnMobile: false,
       items: [],
     },
-    /*{
-      label: t('Launchpad'),
-      href: '/launchpad',
-      icon: RocketIcon,
-      hideSubNav: true,
-      showItemsOnMobile: false,
-      supportChainIds: SUPPORT_LAUNCHPAD,
-      items: [],
-    },*/
     {
       label: t('Info'),
       href: '/info',
@@ -130,53 +114,12 @@ const config: (
       icon: MoreHorizontalIcon,
       showItemsOnMobile: true,
       hideSubNav: true,
-      // supportChainIds: [...SUPPORT_INFO, ...SUPPORT_LOCKS, ...SUPPORT_KYC],
       items: [
-        {
-          label: t('Locks'),
-          href: '/locks',
-          supportChainIds: SUPPORT_LOCKS,
-        },
-        {
-          label: t('KYC'),
-          href: '/kyc',
-          supportChainIds: SUPPORT_KYC,
-          items: [
-            {
-              label: t('KYC'),
-              href: '/kyc',
-            },
-            {
-              label: t('KYC Checker'),
-              href: '/kyc-checker',
-            },
-            {
-              label: t('KYC Delegator'),
-              href: '/kyc-delegator',
-              supportChainIds: SUPPORT_KYC_DELEGATION,
-            },
-          ],
-        },
-        {
-          label: t('Launchpad'),
-          href: '/launchpad',
-          supportChainIds: SUPPORT_LAUNCHPAD,
-        },
-        {
-          label: t('Token Deployer'),
-          href: '/create-token',
-          supportChainIds: SUPPORT_TOKEN_DEPLOYER,
-        },
         {
           label: t('Wiki'),
           href: languageCode === 'zh-cn' ? 'https://wiki.icecreamswap.com/v/zh' : 'https://wiki.icecreamswap.com',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
-        // {
-        //   label: t('Create Token'),
-        //   href: '/create-token',
-        //   supportChainIds: SUPPORT_LOCKS,
-        // },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
     /*

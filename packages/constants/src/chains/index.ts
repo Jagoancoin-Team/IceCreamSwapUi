@@ -26,12 +26,14 @@ import { swanmainnet } from "./swanmainnet"
 import { bitfinitytestnet } from "./bitfinitytestnet"
 import { ternoatestnet } from "./ternoatestnet"
 import { taikomainnet } from "./taikomainnet"
+import { dynastymainnet } from "./dynasty"
 import { gravityalpha } from "./gravityalpha"
 import { fireChain } from "./5irechain"
 import { rootstock } from "./rootstock"
 import { linea } from "./linea"
 
 export const chainMap = {
+  dynastymainnet,
   core,
   bsc,
   bob,
@@ -95,6 +97,7 @@ export enum ChainId {
   ONE_WORLD = oneWorld.id,
   SWAN = swanmainnet.id,
   TAIKO = taikomainnet.id,
+  DYNASTY = dynastymainnet.id,
   SHARDEUM_TEST = shardeumTestnet.id,
   SHIMMER_TEST = shimmerTestnet.id,
   STRATOM_TEST = stratovmTestnet.id,

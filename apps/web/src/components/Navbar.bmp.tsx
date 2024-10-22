@@ -8,8 +8,8 @@ import { useActiveHandle } from 'hooks/useEagerConnect.bmp'
 import { useEffect } from 'react'
 
 const title = {
-  dark: '/images/icecream.png',
-  light: '/images/icecream.png',
+  dark: '/images/dynasty.png',
+  light: '/images/dynasty.png',
 }
 const StyledWallet = styled(Flex)<{ isActive: boolean }>`
   padding: 6px 11px;

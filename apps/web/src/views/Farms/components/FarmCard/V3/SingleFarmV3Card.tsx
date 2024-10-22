@@ -252,7 +252,7 @@ const SingleFarmV3Card: React.FunctionComponent<
                         <Arrow />
                       </StyledTooltip>
                       <Image
-                        src="/images/icecream.png"
+                        src="/images/dynasty.png"
                         width={135}
                         height={120}
                         alt="ice cream reminds unstaking"

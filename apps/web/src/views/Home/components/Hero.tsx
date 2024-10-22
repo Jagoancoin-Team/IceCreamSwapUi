@@ -132,10 +132,10 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading as="h1" scale="xxl" color="secondary" mb="24px">
-            {t('Welcome to AI enhanced DeFi')}
+            {t('BLOCKCHAIN FROM EMPIRE')}
           </Heading>
           <Heading as="p" scale="md" mb="24px">
-            {t('The booking.com of DEXes. Trade any token at the best rates.')}
+            {t('Dynasty Coin is a blockchain ecosystem aiming to connect kingdoms worldwide with innovative blockchain technology.')}
           </Heading>
           <Flex>
             <NextLinkFromReactRouter to="/swap">
@@ -157,7 +157,7 @@ const Hero = () => {
               priority
               objectFit="fill"
               placeholder="blur"
-              alt={t('IceCream Store')}
+              alt={t('Dynasty Store')}
             />
           </BunnyWrapper>
           <StarsWrapper>

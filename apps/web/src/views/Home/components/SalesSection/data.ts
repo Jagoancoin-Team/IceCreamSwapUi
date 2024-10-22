@@ -1,10 +1,10 @@
 import { TranslateFunction } from '@pancakeswap/localization'
 import { SalesSectionProps } from '.'
-import iceConeA from '../../../../../public/images/home/trade/iceconea.png'
-import iceConeB from '../../../../../public/images/home/trade/iceconeb.png'
+import iceConeA from '../../../../../public/images/dynasty.png'
+import iceConeB from '../../../../../public/images/hero.png'
 import bridgeA from '../../../../../public/images/home/bridge/bridge_a.png'
 import bridgeB from '../../../../../public/images/home/bridge/bridge_b.png'
-import earnIce from '../../../../../public/images/home/earn/ice.png'
+import earnIce from '../../../../../public/images/home/hero-home.png'
 
 export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Trade any token at the best rate'),

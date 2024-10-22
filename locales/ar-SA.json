@@ -1054,7 +1054,7 @@
   "The Locked Price & Closed Price are exactly the same (within 8 decimals), so neither side wins. All funds entered into UP and DOWN positions will go to the weekly CAKE burn.": "السعر المجمد متطابق تمامًا مع السعر المغلق (ضمن 8 منازل عشرية)، لذا لم يحقق أي جانب الفوز. سوف تنتقل جميع الأموال التي تم إدخالها في المراكز الأعلى والأسفل إلى حرق CAKE الأسبوعي.",
   "To Burn": "للحرق",
   "Account": "الحساب",
-  "IceCreamSwap Info & Analytics": "معلومات وتحليلات IceCreamSwap",
+  "DynastySwap Info & Analytics": "معلومات وتحليلات IceCreamSwap",
   "Top Tokens": "أفضل الرموز المميزة",
   "Top Pairs": "أفضل الأصول",
   "Your Watchlist": "قائمة المشاهدة الخاصة بك",
